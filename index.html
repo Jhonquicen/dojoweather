@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DojoWeather</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <h1>DojoWeather</h1>
+            <ul>
+                <li>
+                    <a href="#" onclick="loadingw('Burbank')">Burbank</a>//comillas ' ' para que aparezca nombre
+                </li>
+                <li>
+                    <a href="#" onclick="loadingw()">Chicago</a>
+                </li>
+                <li>
+                    <a href="#" onclick="loadingw()">Dallas</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="sanjose">
+            <h2>san jose</h2>
+            <form>
+                <label>show temperature in</label>
+                <select>
+                    <option>C</option>
+                    <option>F</option>
+                </select>
+            </form>
+        </div>
+        <div class="dia">
+            <h2>Today</h2>
+            <img src="imagen/some_rain.png" alt="some rain">
+            <p>some rain</p>
+            <div class="temperaturas">
+                <span class="TempMax">24</span>
+                <span class="TempMin">18</span>
+            </div>
+        </div>
+        <div class="dia">
+            <h2>Tomorrow</h2>
+            <img src="imagen/some_sun.png" alt="some sun"/>
+            <p>saturday</p>
+        </div>
+        <div class="dia">
+            <div class="Temperaturas">
+                <span class="TempMax">27</span>
+                <span class="TempMin">18</span>
+            </div>
+        </div>
+
+        <div class="dia ultimo">
+
+            <div class="temperaturas">
+                <span class="TempMax">26</span>
+                <span class="TempMin">21</span>
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="cookie">
+            <img src="imagen/cookie.png" alt="cookie">
+            <div class="text">
+                <h3>stop! cookies time.</h3>
+                <p>
+                    lorem ipsut <a href="3">Real me</a>
+                </p>
+                <div>
+                    <button onclick="eliminaCookie()">Aceptar</button>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src=""></script>
+</body>
+</html>
